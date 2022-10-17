@@ -272,8 +272,8 @@ function esVocal(letra){
   }if (letra == 'u'){
     return 'Es vocal';
   }if (letra.length > 1){
-    return 'Dato incorrecto';
-  }return 'Dato incorrecto';
+    return 'dato incorrecto';
+  }return 'dato incorrecto';
 }
 
 
