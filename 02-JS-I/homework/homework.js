@@ -263,8 +263,8 @@ function esVocal(letra){
   if(letra.length > 1){
     return 'dato incorrecto'
   }
-  if (letra === 'a' || letra === 'e' || letra === "i" || letra === "o" || letra === "u") {
-    return "es vocal"
+    if(letra === 'a' || letra === 'e' || letra === "i" || letra === "o" || letra === "u"){
+      return "es vocal"
   }
   return 'dato incorrecto'
   }
