@@ -179,15 +179,16 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero === 0) {
+  if(numero === 0){
     return false;
   }
-  else if(numero > 0) {
+  else if(numero > 0){
     return "es positivo";
   }
   else {
     return "es negativo";
   
+  }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -260,14 +261,19 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra.length > 1){
-    return 'dato incorrecto'
-  }
-  if(letra === 'a' || letra === 'e' || letra === "i" || letra === "o" || letra === "u"){
-    return "es vocal"
-  }
-  return 'dato incorrecto'
-  }
+  if (letra == 'a'){
+    return 'Es vocal';
+  }if (letra == 'e'){
+    return 'Es vocal';
+  }if (letra == 'i'){
+    return 'Es vocal';
+  }if (letra == 'o'){
+    return 'Es vocal';
+  }if (letra == 'u'){
+    return 'Es vocal';
+  }if (letra.length > 1){
+    return 'Dato incorrecto';
+  }return 'Dato incorrecto';
 }
 
 
@@ -309,4 +315,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
