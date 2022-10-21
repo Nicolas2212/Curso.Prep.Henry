@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
     // Devuelve el primer elemento de un  array (pasado por parametro)
     // Tu código:
-    return (devolverPrimerElemento)
+    return array[0]
 
 }
 
@@ -11,7 +11,8 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
     // Devuelve el último elemento de un array
     // Tu código:
-    return array[array.lenght - 1]
+    return array[array.length - 1];
+
 
 }
 
@@ -19,7 +20,7 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
     // Devuelve el largo de un array
     // Tu código:
-    return array.lenght;
+    return array.length;
 
 }
 
@@ -44,8 +45,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
     // Añade el "elemento" al final del array
     // y devuelve el array
     // Tu código:
-    array[array.lenght] = elemento;
+    array[array.length] = elemento;
     return array;
+
 
 }
 
